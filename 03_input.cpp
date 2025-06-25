@@ -17,6 +17,6 @@ int main()
     cout<<"Enter second number:";
     cin>>y;
     cout<<"The Addition is "<<x+y<<endl;
-    return 0 ;
+    return 0;
 
 }
