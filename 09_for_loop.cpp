@@ -1,4 +1,5 @@
 #include<iostream>
+#include <iomanip>
 using namespace std;
 int main ()
 
@@ -69,10 +70,82 @@ int main ()
 
 
 //With the help of for loop we create a count down
-{
-    for(int i=10;i>0;i--){
+// {
+//     for(int i=10;i>0;i--){
 
-        cout<<i<<endl;
+//         cout<<i<<endl;
         
+//     }
+// }
+
+
+
+// {
+// int numb; //define loop variable
+// for(numb=1; numb<=10; numb++) //loop from 1 to 10
+// {
+// cout << setw(4) << numb; //display 1st column
+// int cube = numb*numb*numb; //calculate cube
+// cout << setw(6) << cube << endl; //display 2nd column
+// }
+// return 0;
+// }
+
+
+
+// // Thus the factorial of 5 is 5*4*3*2*1, or 120.
+// {
+//     int x;
+//     cout << "Enter a number: ";
+//     cin >> x;
+
+//     int fact = 1;
+//     for (int j = x; j > 0; j--) {
+//         fact *= j;
+//     }
+
+//     cout << "Factorial of " << x << " is: " << fact << endl;
+//     return 0;
+// }
+
+
+
+//Create a fabonacci sequence
+// {
+//     int n;
+//     cout << "Enter the number of terms: ";
+//     cin >> n;
+
+//     int t1 = 0, t2 = 1, nextTerm;
+
+//     cout << "Fibonacci Series: " << t1 << ", " << t2;
+
+//     for (int i = 3; i <= n; ++i) {
+//         nextTerm = t1 + t2;
+//         cout << ", " << nextTerm;
+//         t1 = t2;
+//         t2 = nextTerm;
+//     }
+
+//     return 0;
+
+// }
+
+
+
+//flowers patterns
+{
+  int rows;
+  cout<<"Enter the rows u want: ";
+  cin>>rows;
+
+  for (int i=1;i<=rows;i++){
+    for(int j=1;j<=i;j++){
+      cout<<"*";
     }
+    cout<<endl;
 }
+return 0;
+}
+
+
