@@ -111,3 +111,23 @@ int main ()
 
 
 
+// U enter any number and they give us the factorial 
+{
+    int num=0;
+    int fact=1;
+
+    cout<<"Enter number u want fact: ";
+    cin>>num;
+   
+        for (int i=num  ; i>0 ;i--)
+        {
+        fact*=i;
+        
+        
+    }
+    
+    cout << "\nfactorial is: " << fact << endl;
+    return 0 ;
+
+}
+
