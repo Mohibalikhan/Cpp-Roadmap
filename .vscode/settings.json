@@ -57,6 +57,7 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
+    "*.cpp": "cpp",
     "iostream": "cpp",
     "ostream": "cpp",
     "iomanip": "cpp",
@@ -70,6 +71,8 @@
     "functional": "cpp",
     "tuple": "cpp",
     "type_traits": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "compare": "cpp",
+    "variant": "cpp"
   }
 }
