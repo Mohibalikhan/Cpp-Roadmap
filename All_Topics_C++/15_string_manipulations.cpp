@@ -2,6 +2,10 @@
 using namespace std;
 int main()
 
+// Clear 
+// Erase
+// Replace
+// Insert
 
 // Clear function clears all string
 // {
@@ -46,7 +50,6 @@ int main()
 
 //Replace function with string variable specific start portion add
 // {
-
 //     string dit = "Diploma in IT";
 //     string cit = "Certificate";     //Certificate
 //     cout<<"Before clear: "<<dit;    //012345678910
@@ -56,9 +59,8 @@ int main()
 
 
 
-// //Replace function with string variable specific portion add
+//Replace function with string variable specific portion add
 // {
-
 //     string dit = "Diploma in IT";   //          0 1 2 3 4
 //     string cit = "Certificate";     //C e r t i f i c a t e
 //     cout<<"Before clear: "<<dit;    //0 1 2 3 4 5 6 7 8 9 10
@@ -68,13 +70,71 @@ int main()
 
 
 
-//Replace function with string variable with specific character
+//Replace function with repetation of specific character
 // {
-
 //     string dit = "Diploma in IT";    
 //     cout<<"Before clear: "<<dit;    
 //     dit.replace(0,7,7,'$'); //0 se 7 tak remove or 7 dafa $ print kardo
 //     cout<<"\nAfter clear: "<<dit;
 // }
+
+
+
+// Insert function with string
+// {
+//     string str1 = "C++ Programming";
+//     cout<<"Before Replace: "<<str1;
+//     str1.insert(3," and Python") ;
+//     cout<<"\nAfter Replace: "<<str1;
+// }
+
+
+
+// Insert function with string variable
+// {
+//     string str1 = "C++ Programming";
+//     string str2 = "Python ";
+//     cout<<"Before Replace: "<<str1;
+//     str1.insert(4,str2) ;
+//     cout<<"\nAfter Replace: "<<str1;
+// }
+
+
+
+// Insert function with string variable with start portion insert
+// {
+//     string str1 = "C++ Programming";
+//     string str2 = "Python ";
+//     cout<<"Before Replace: "<<str1;
+//     str1.insert(4,str2,0,2) ;
+//     cout<<"\nAfter Replace: "<<str1;
+// }
+
+
+
+// Insert function with string variable with specific portion insert
+// {
+//     string str1 = "C++ Programming";
+//     string str2 = "Python ";
+
+//     cout<<"Before Replace: "<<str1;
+//     str1.insert(4,str2,2,3) ;
+
+//     cout<<"\nAfter Replace: "<<str1;
+// }
+
+
+
+// Insert function with  with specific character repeat 
+{
+    string str1 = "C++ Programming";
+    cout<<"Before Replace: "<<str1;
+    str1.insert(4,4,'#') ;
+    cout<<"\nAfter Replace: "<<str1;
+}
+
+
+
+
 
 
